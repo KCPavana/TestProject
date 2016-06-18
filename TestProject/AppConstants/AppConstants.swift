@@ -15,7 +15,7 @@ var IPHONE_4S_HEIGHT = 480
 var IPHONE_5S_HEIGHT = 568
 var IPHONE_6_HEIGHT = 667
 var IPHONE_6PLUS_HEIGHT = 736
-let IPHONE_SCROLLVIEW_WIDTH : CGFloat = 320
+/*let IPHONE_SCROLLVIEW_WIDTH : CGFloat = 320
 let IPHONE_SCROLLVIEW_HEIGHT : CGFloat = 570
 let IPAD_SCROLLVIEW_WIDTH : CGFloat = 320
 let IPAD_SCROLLVIEW_HEIGHT : CGFloat = 960
@@ -80,7 +80,7 @@ let SPACE : CGFloat = 5.0
 
 let LEFT_SPACE : CGFloat = 4
 let UP_SPACE  : CGFloat = 2
-let WIDTH : CGFloat = UIScreen.mainScreen().bounds.size.width - 8
+let WIDTH : CGFloat = UIScreen.mainScreen().bounds.size.width - 8*/
 
 let BOLD_FONT_NAME = "helvetica"
 let FONT_NAME = "helvetica"
