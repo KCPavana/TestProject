@@ -17,9 +17,45 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let db = SQLiteDB.sharedInstance()
+        
+        
+            // iOS 8 Notifications
+            if #available(iOS 8.0, *)
+            {
+                let notificationSettings: UIUserNotificationSettings = UIUserNotificationSettings(
+                    forTypes:
+                    [UIUserNotificationType.Alert, UIUserNotificationType.Badge, UIUserNotificationType.Sound],
+                    categories: nil)
+                UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
+                UIApplication.sharedApplication().registerForRemoteNotifications()
+            } else {
+                // Fallback on earlier versions
+                // iOS < 8 Notifications
+                UIApplication.sharedApplication().registerForRemoteNotificationTypes(
+                    [UIRemoteNotificationType.Badge, UIRemoteNotificationType.Sound, UIRemoteNotificationType.Alert])
+            }
+    
+        if let options = launchOptions {
+            if let notification = options[UIApplicationLaunchOptionsLocalNotificationKey] as? UILocalNotification {
+                if let userInfo = notification.userInfo {
+                    let customField1 = userInfo["CustomField1"] as! String
+                    // do something neat here
+                     print("didReceiveLocalNotification: \(customField1)")
+                }
+            }
+        }
+
         return true
     }
 
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        if let userInfo = notification.userInfo {
+            let customField1 = userInfo["CustomField1"] as! String
+            print("didReceiveLocalNotification: \(customField1)")
+        }
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

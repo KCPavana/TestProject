@@ -29,6 +29,20 @@
 		2C44102F1D15C70600C3290B /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44102A1D15C70600C3290B /* AppConstants.swift */; };
 		2C4410301D15C70600C3290B /* AppUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44102B1D15C70600C3290B /* AppUtilities.swift */; };
 		2C4410311D15C70600C3290B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44102C1D15C70600C3290B /* Reachability.swift */; };
+		2CEA40C51D15F9D600E92A5F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40C41D15F9D600E92A5F /* BaseViewController.swift */; };
+		2CEA40C71D15F9E600E92A5F /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40C61D15F9E600E92A5F /* SignUPViewController.swift */; };
+		2CEA40C91D15FA1A00E92A5F /* AddNewReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40C81D15FA1A00E92A5F /* AddNewReminderViewController.swift */; };
+		2CEA40CB1D15FA4000E92A5F /* DisplayAllRemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40CA1D15FA4000E92A5F /* DisplayAllRemindersViewController.swift */; };
+		2CEA40CE1D15FA6E00E92A5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA40CD1D15FA6E00E92A5F /* Images.xcassets */; };
+		2CEA40D01D1615FF00E92A5F /* Test.db in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA40CF1D1615FF00E92A5F /* Test.db */; };
+		2CEA40D81D16161E00E92A5F /* ModelsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40D21D16161E00E92A5F /* ModelsClass.swift */; };
+		2CEA40D91D16161E00E92A5F /* NotificationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40D31D16161E00E92A5F /* NotificationClass.swift */; };
+		2CEA40DA1D16161E00E92A5F /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40D51D16161E00E92A5F /* SQLiteDB.swift */; };
+		2CEA40DB1D16161E00E92A5F /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40D61D16161E00E92A5F /* SQLTable.swift */; };
+		2CEA40DC1D16161E00E92A5F /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40D71D16161E00E92A5F /* String-Extras.swift */; };
+		2CEA40DE1D16169E00E92A5F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEA40DD1D16169E00E92A5F /* libsqlite3.0.tbd */; };
+		2CEA40E31D1616DA00E92A5F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA40E21D1616DA00E92A5F /* MBProgressHUD.m */; };
+		5AA2FABE876F01A21F480AB9 /* Pods_TestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44A3067922CCD712D4C67F3 /* Pods_TestProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +101,24 @@
 		2C44102A1D15C70600C3290B /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		2C44102B1D15C70600C3290B /* AppUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtilities.swift; sourceTree = "<group>"; };
 		2C44102C1D15C70600C3290B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2CEA40C41D15F9D600E92A5F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2CEA40C61D15F9E600E92A5F /* SignUPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		2CEA40C81D15FA1A00E92A5F /* AddNewReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewReminderViewController.swift; sourceTree = "<group>"; };
+		2CEA40CA1D15FA4000E92A5F /* DisplayAllRemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayAllRemindersViewController.swift; sourceTree = "<group>"; };
+		2CEA40CD1D15FA6E00E92A5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CEA40CF1D1615FF00E92A5F /* Test.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test.db; sourceTree = "<group>"; };
+		2CEA40D21D16161E00E92A5F /* ModelsClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsClass.swift; sourceTree = "<group>"; };
+		2CEA40D31D16161E00E92A5F /* NotificationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationClass.swift; sourceTree = "<group>"; };
+		2CEA40D51D16161E00E92A5F /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		2CEA40D61D16161E00E92A5F /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		2CEA40D71D16161E00E92A5F /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		2CEA40DD1D16169E00E92A5F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2CEA40DF1D1616BB00E92A5F /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		2CEA40E11D1616DA00E92A5F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2CEA40E21D1616DA00E92A5F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		48E352ACD8F02B7ABD16B704 /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
+		E44A3067922CCD712D4C67F3 /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DD380775FF12D54D0EC974 /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEA40DE1D16169E00E92A5F /* libsqlite3.0.tbd in Frameworks */,
+				5AA2FABE876F01A21F480AB9 /* Pods_TestProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +148,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B6CBBE766AF98C4107BE1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA40DD1D16169E00E92A5F /* libsqlite3.0.tbd */,
+				E44A3067922CCD712D4C67F3 /* Pods_TestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C440FCD1D15C5F100C3290B = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +164,8 @@
 				2C440FF01D15C5F100C3290B /* TestProjectTests */,
 				2C440FFB1D15C5F100C3290B /* TestProjectUITests */,
 				2C440FD71D15C5F100C3290B /* Products */,
+				509021FCF9411DBFE0936441 /* Pods */,
+				12B6CBBE766AF98C4107BE1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,10 +182,20 @@
 		2C440FD81D15C5F100C3290B /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				2CEA40CF1D1615FF00E92A5F /* Test.db */,
+				2CEA40DF1D1616BB00E92A5F /* Bridging-Header.h */,
+				2CEA40E01D1616DA00E92A5F /* MBProgressHUD */,
+				2CEA40D11D16161E00E92A5F /* ModelClass */,
+				2CEA40D41D16161E00E92A5F /* SqliteDB */,
+				2CEA40CC1D15FA6E00E92A5F /* Graphics */,
 				2C4410271D15C70600C3290B /* AppConstants */,
 				2C44100A1D15C68000C3290B /* AFNetworking */,
 				2C440FD91D15C5F100C3290B /* AppDelegate.swift */,
+				2CEA40C41D15F9D600E92A5F /* BaseViewController.swift */,
 				2C440FDB1D15C5F100C3290B /* ViewController.swift */,
+				2CEA40C61D15F9E600E92A5F /* SignUPViewController.swift */,
+				2CEA40C81D15FA1A00E92A5F /* AddNewReminderViewController.swift */,
+				2CEA40CA1D15FA4000E92A5F /* DisplayAllRemindersViewController.swift */,
 				2C440FDD1D15C5F100C3290B /* Main.storyboard */,
 				2C440FE31D15C5F100C3290B /* Assets.xcassets */,
 				2C440FE51D15C5F100C3290B /* LaunchScreen.storyboard */,
@@ -206,6 +261,51 @@
 			path = AppConstants;
 			sourceTree = "<group>";
 		};
+		2CEA40CC1D15FA6E00E92A5F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA40CD1D15FA6E00E92A5F /* Images.xcassets */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		2CEA40D11D16161E00E92A5F /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA40D21D16161E00E92A5F /* ModelsClass.swift */,
+				2CEA40D31D16161E00E92A5F /* NotificationClass.swift */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		2CEA40D41D16161E00E92A5F /* SqliteDB */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA40D51D16161E00E92A5F /* SQLiteDB.swift */,
+				2CEA40D61D16161E00E92A5F /* SQLTable.swift */,
+				2CEA40D71D16161E00E92A5F /* String-Extras.swift */,
+			);
+			path = SqliteDB;
+			sourceTree = "<group>";
+		};
+		2CEA40E01D1616DA00E92A5F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA40E11D1616DA00E92A5F /* MBProgressHUD.h */,
+				2CEA40E21D1616DA00E92A5F /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		509021FCF9411DBFE0936441 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD380775FF12D54D0EC974 /* Pods-TestProject.debug.xcconfig */,
+				48E352ACD8F02B7ABD16B704 /* Pods-TestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C4410011D15C5F100C3290B /* Build configuration list for PBXNativeTarget "TestProject" */;
 			buildPhases = (
+				52D6C976A7B5F57CFFBA54BD /* [CP] Check Pods Manifest.lock */,
 				2C440FD21D15C5F100C3290B /* Sources */,
 				2C440FD31D15C5F100C3290B /* Frameworks */,
 				2C440FD41D15C5F100C3290B /* Resources */,
+				BC880D5322D3469BAEC58622 /* [CP] Embed Pods Frameworks */,
+				116CF375CA678D84118AB12C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +414,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C440FE71D15C5F100C3290B /* LaunchScreen.storyboard in Resources */,
+				2CEA40CE1D15FA6E00E92A5F /* Images.xcassets in Resources */,
+				2CEA40D01D1615FF00E92A5F /* Test.db in Resources */,
 				2C440FE41D15C5F100C3290B /* Assets.xcassets in Resources */,
 				2C440FDF1D15C5F100C3290B /* Main.storyboard in Resources */,
 			);
@@ -332,6 +437,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		116CF375CA678D84118AB12C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D6C976A7B5F57CFFBA54BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC880D5322D3469BAEC58622 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C440FD21D15C5F100C3290B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -340,17 +493,27 @@
 				2C44101E1D15C68000C3290B /* AFHTTPRequestOperation.m in Sources */,
 				2C440FDC1D15C5F100C3290B /* ViewController.swift in Sources */,
 				2C44102D1D15C70600C3290B /* APIConstants.swift in Sources */,
+				2CEA40D91D16161E00E92A5F /* NotificationClass.swift in Sources */,
 				2C44101F1D15C68000C3290B /* AFHTTPRequestOperationManager.m in Sources */,
 				2C44102F1D15C70600C3290B /* AppConstants.swift in Sources */,
+				2CEA40C91D15FA1A00E92A5F /* AddNewReminderViewController.swift in Sources */,
+				2CEA40D81D16161E00E92A5F /* ModelsClass.swift in Sources */,
+				2CEA40C51D15F9D600E92A5F /* BaseViewController.swift in Sources */,
+				2CEA40DB1D16161E00E92A5F /* SQLTable.swift in Sources */,
+				2CEA40DA1D16161E00E92A5F /* SQLiteDB.swift in Sources */,
 				2C4410211D15C68000C3290B /* AFNetworkReachabilityManager.m in Sources */,
 				2C4410311D15C70600C3290B /* Reachability.swift in Sources */,
+				2CEA40E31D1616DA00E92A5F /* MBProgressHUD.m in Sources */,
 				2C4410251D15C68000C3290B /* AFURLResponseSerialization.m in Sources */,
+				2CEA40C71D15F9E600E92A5F /* SignUPViewController.swift in Sources */,
+				2CEA40DC1D16161E00E92A5F /* String-Extras.swift in Sources */,
 				2C44102E1D15C70600C3290B /* APIManager.swift in Sources */,
 				2C4410231D15C68000C3290B /* AFURLConnectionOperation.m in Sources */,
 				2C4410221D15C68000C3290B /* AFSecurityPolicy.m in Sources */,
 				2C4410301D15C70600C3290B /* AppUtilities.swift in Sources */,
 				2C4410201D15C68000C3290B /* AFHTTPSessionManager.m in Sources */,
 				2C4410241D15C68000C3290B /* AFURLRequestSerialization.m in Sources */,
+				2CEA40CB1D15FA4000E92A5F /* DisplayAllRemindersViewController.swift in Sources */,
 				2C4410261D15C68000C3290B /* AFURLSessionManager.m in Sources */,
 				2C440FE21D15C5F100C3290B /* TestProject.xcdatamodeld in Sources */,
 				2C440FDA1D15C5F100C3290B /* AppDelegate.swift in Sources */,
@@ -495,23 +658,27 @@
 		};
 		2C4410021D15C5F100C3290B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DD380775FF12D54D0EC974 /* Pods-TestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calendar.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		2C4410031D15C5F100C3290B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E352ACD8F02B7ABD16B704 /* Pods-TestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calendar.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/Bridging-Header.h";
 			};
 			name = Release;
 		};
